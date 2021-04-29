@@ -19,8 +19,8 @@ u* {box-sizing: border-box;}
   padding: 12px;
   text-decoration: none;
   font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
+  line-height: 12px;
+  border-radius: 6px;
 }
 
 .header a.logo {
