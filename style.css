@@ -106,7 +106,7 @@ button:hover{
 
 .bottom {
     text-align: center;
-    padding: 3px;
+    padding: 2px;
     background-color: transparent;
     color: #fff;
     position: absolute;
@@ -122,6 +122,6 @@ button:hover{
     color: white;
 }
 .bottom hr {
-    border-top: 1px  rgb(255, 255, 255);
+    border-top: 0.1px  rgb(255, 255, 255);
     width: 100%;
   }
