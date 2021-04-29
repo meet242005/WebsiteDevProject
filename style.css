@@ -103,3 +103,25 @@ button:hover{
     border: none;
     
 }
+
+.bottom {
+    text-align: center;
+    padding: 3px;
+    background-color: transparent;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+ .bottom a:visited{
+    color: white;
+}
+.bottom a{
+    color: white;
+}
+.bottom hr {
+    border-top: 1px  rgb(255, 255, 255);
+    width: 100%;
+  }
