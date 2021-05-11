@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .header{
     min-height: 100vh;
@@ -164,3 +164,93 @@ h3{
     flex-direction: column;
 }
 }
+
+.players{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.picture-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.picture-col img{
+    width: 100%;
+    display: block;
+}
+.piclayer{
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+.piclayer:hover{
+    background:rgba(1, 113, 133, 0.699);
+}
+.piclayer h3{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+}
+.piclayer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+.news{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.news-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.news-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.news-col p{
+    padding: 0;
+}
+.news-col h3{
+     margin-top: 16px;
+     margin-bottom: 15px;
+     text-align: left;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer h6{
+    margin-bottom: 05px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.footer a:visited{
+    color: black;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+}
+
