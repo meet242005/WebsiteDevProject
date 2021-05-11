@@ -143,7 +143,7 @@ p{
 }
 .col{
     flex-basis: 31%;
-    background: #fafeff;
+    background: hsl(0, 0%, 97%);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
