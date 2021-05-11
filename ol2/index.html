@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Football Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+            <div class="nav">
+                <input type="checkbox" id="nav-check">
+                <div class="nav-header">
+                  <div class="nav-title">
+                    Football World
+                  </div>
+                </div>
+                <div class="nav-btn">
+                  <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </label>
+                </div>
+                
+                <div class="nav-links">
+                  <a href="history.html" target="_blank">History</a>
+                  <a href="howtoplay.html" target="_blank">How to Play</a>
+                  <a href="" target="_blank">League</a>
+                  <a href="" target="_blank">etc</a>
+                  <a href="" target="_blank">etc</a>
+                </div>
+              </div>
+              <div class="banner">
+        <div class="content">
+            <h1>Football</h1>
+            <div id="str"></div>
+            <p>Explore more about Football:</p>
+            <div>
+                <form>
+                <button type"button" formaction="history.html"><span></span>HISTORY OF FOOTBALL</button>
+                <button type"button" formaction="howtoplay.html"><span></span>HOW TO PLAY IT?</button>
+                </form>
+            </div>
+        </div>
+         <div class="bottom">
+                <hr>
+                <br>
+                <h6>FYCO I - Webpage Designing with HTML (22014) Microproject</h6>
+                <h6>Group 2 - Roll No: 411-420 <a href="fyco-group2-wpdmp.pdf">Project Report</a></h6>
+               <br>
+            </div>
+        </div>
+        <script>var string = "Football is the world's most popular sports both in numbers of players and spectators. Football can be played anywhere and by anyone despite age, gender or type of ability!";
+            var str = string.split("");
+            var el = document.getElementById('str');
+            (function animate() {
+            str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running); 
+            var running = setTimeout(animate, 90);
+            })();</script>
+    </body>
+    
+</html>
