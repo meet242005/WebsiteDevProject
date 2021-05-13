@@ -240,6 +240,8 @@ h3{
     width: 100%;
     text-align: center;
     padding: 20px 0;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 .footer h6{
     margin-bottom: 05px;
@@ -254,3 +256,38 @@ h3{
     text-decoration: none;
 }
 
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(header\ copy.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.sub-header h1{
+    margin-top: 100px;
+}
+.subcontain{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+.subcontain-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+
+}
+.subcontain-col img{
+    width: 100%;
+    
+}
+.subcontain-col p{
+    padding: 15px 0;
+
+}
+.subcontain-col h1{
+    padding-top: 0;
+}
