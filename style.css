@@ -18,7 +18,7 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 150px;
+    width: 300px;
 }
 .nav-links{
     flex: 1;
@@ -82,6 +82,14 @@ width: 100%;
     background: #058399;
     transition: 1s;
 }
+.btn{
+    border: 1px solid #058399;
+    background: transparent;
+    color: #058399;
+}
+.btn:hover{
+    color: white;
+}
 nav .fa{
     display: none;
 }
@@ -122,6 +130,20 @@ nav .fa{
     margin: auto;
     text-align: center;
     padding-top: 100px;
+
+}
+.teams p{
+    justify-content: space-around;
+
+}
+
+.teams a:visited{
+    color: #058399;
+}
+.teams a{
+    color: #058399;
+    text-decoration: none;
+    font-size: 14px;
 
 }
 
@@ -170,11 +192,14 @@ h3{
     margin: auto;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 .picture-col{
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
+    margin-left: 05px;
+    margin-right: 05px;
     position: relative;
     overflow: hidden;
 }
@@ -240,19 +265,30 @@ h3{
     width: 100%;
     text-align: center;
     padding: 20px 0;
-    margin-right: 20px;
-    margin-left: 20px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(header\ copy.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+
 }
 .footer h6{
     margin-bottom: 05px;
     margin-top: 20px;
-    font-weight: 600;
+    font-weight: 300;
+    color: white;
+}
+.footer p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: 100;
+    padding: 02px 0;
+    color: white;
 }
 .footer a:visited{
-    color: black;
+    color: white;
 }
 .footer a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -290,4 +326,77 @@ h3{
 }
 .subcontain-col h1{
     padding-top: 0;
+}
+
+.blog{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.blog-left{
+    flex-basis: 65%;
+}
+.blog-left img{
+    width: 100%;
+}
+.blog-left h2{
+    font-weight: 600;
+    margin: 30px 0;
+    color: #222;
+
+}
+.blog-left h3{
+        font-weight: 300;
+        margin: 30px 0;
+        color: #222;
+        text-align: left;
+}
+.blog-left p{
+    padding: 0;
+    color: rgb(49, 48, 48);
+    text-align: justify;
+}
+.blog-right{
+    flex-basis: 32%;
+}
+.blog-right h3{
+    background: #058399;
+    color: white;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.blog-right div{
+    display: flex;
+    color: #555;
+    padding: 8px 0;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+}
+.comment{
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.comment h3{
+    text-align: left;
+}
+.comment input, .comment textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+.comment button{
+    margin: 10px 0;
+}
+@media(max-width:700px){
+    .sub-header h1{
+        font-size: 24px;
+    }
 }
