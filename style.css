@@ -260,7 +260,68 @@ h3{
      margin-bottom: 15px;
      text-align: left;
 }
+.news2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
 
+}
+.news2-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 05px;
+    margin-right: 05px;
+    text-align: left;
+}
+.news2-col img{
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 05px;
+}
+.news2-col p{
+    padding: 0;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 05px;
+}
+.news2-col h3{
+     margin-top: 16px;
+     margin-bottom: 15px;
+     text-align: center;
+}
+.clubs{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+
+}
+.clubs-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-right: 05px;
+    text-align: left;
+}
+.clubs-col img{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 0;
+    margin-left: 05px;
+}
+.clubs-col p{
+    padding: 0;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 05px;
+}
+.clubs-col h3{
+     margin-top: 16px;
+     margin-bottom: 15px;
+     text-align: center;
+}
 .footer{
     width: 100%;
     text-align: center;
