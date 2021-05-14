@@ -366,14 +366,24 @@ h3{
     font-size: 16px;
     margin-bottom: 20px;
 }
-
+.blog-right a:visited{
+    color: #555;
+}
+.blog-right a{
+    color: #555;
+    text-decoration: none;
+}
 .blog-right div{
     display: flex;
     color: #555;
     padding: 8px 0;
     box-sizing: border-box;
     align-items: center;
+    text-align: justify;
     justify-content: space-between;
+}
+.blog-right img{
+    width: 100%;
 }
 .comment{
     border: 1px solid #ccc;
